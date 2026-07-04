@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+dist/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+*.log
+*.pid
+.uvicorn*.pid
+*.bak
+backend/data/market/*.db
+backend/data/market/*.db.*
+backend/data/market/*.db-*
+backend/data/market/*cache*.json
+backend/data/market/*_cache.json
+backend/data/replay/*.jsonl

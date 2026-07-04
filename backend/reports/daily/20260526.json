@@ -1,0 +1,149 @@
+{
+  "date": "20260526",
+  "generated_at": "03:37:34",
+  "regime": {
+    "name": "轮动震荡",
+    "code": "rotational_chop",
+    "rotation_speed": 0.715,
+    "risk_level": 0.5,
+    "market_bias": 0.793,
+    "rotation_change_vs_yesterday": 0.0,
+    "risk_change_vs_yesterday": 0.0
+  },
+  "leading_sectors": [
+    {
+      "name": "光伏",
+      "phase": "",
+      "score": 0
+    },
+    {
+      "name": "半导体",
+      "phase": "",
+      "score": 0
+    },
+    {
+      "name": "芯片",
+      "phase": "",
+      "score": 0
+    },
+    {
+      "name": "消费电子",
+      "phase": "",
+      "score": 0
+    },
+    {
+      "name": "CPO",
+      "phase": "",
+      "score": 0
+    }
+  ],
+  "strategy": {
+    "primary": "sector_rotation",
+    "active": [
+      "sector_rotation",
+      "dip_stabilization"
+    ]
+  },
+  "top_candidates_summary": {
+    "total": 10,
+    "tier_distribution": [
+      {
+        "tier": "B",
+        "label": "B级",
+        "count": 10
+      }
+    ],
+    "top_5": [
+      {
+        "symbol": "603019",
+        "name": "中科曙光",
+        "score": 56.9,
+        "tier": "B",
+        "confidence": 0.84,
+        "risk_reward": 2.0,
+        "reasons": [
+          "板块处于高位分歧，趋势配合",
+          "分歧中收阳，多头抵抗",
+          "风险收益比 2.0，具备安全边际",
+          "高置信度信号",
+          "策略匹配度 80%"
+        ],
+        "data_source": "realtime"
+      },
+      {
+        "symbol": "601689",
+        "name": "拓普集团",
+        "score": 55.4,
+        "tier": "B",
+        "confidence": 0.81,
+        "risk_reward": 2.0,
+        "reasons": [
+          "板块启动期，具备操作空间",
+          "分歧回踩，企稳信号",
+          "风险收益比 2.0，具备安全边际",
+          "高置信度信号",
+          "策略匹配度 80%"
+        ],
+        "data_source": "realtime"
+      },
+      {
+        "symbol": "002920",
+        "name": "德赛西威",
+        "score": 55.4,
+        "tier": "B",
+        "confidence": 0.81,
+        "risk_reward": 2.0,
+        "reasons": [
+          "板块启动期，具备操作空间",
+          "分歧回踩，企稳信号",
+          "风险收益比 2.0，具备安全边际",
+          "高置信度信号",
+          "策略匹配度 80%"
+        ],
+        "data_source": "realtime"
+      },
+      {
+        "symbol": "002230",
+        "name": "科大讯飞",
+        "score": 54.8,
+        "tier": "B",
+        "confidence": 0.84,
+        "risk_reward": 2.0,
+        "reasons": [
+          "板块处于高位分歧，趋势配合",
+          "分歧中收阳，多头抵抗",
+          "风险收益比 2.0，具备安全边际",
+          "高置信度信号",
+          "策略匹配度 80%"
+        ],
+        "data_source": "realtime"
+      },
+      {
+        "symbol": "601012",
+        "name": "隆基绿能",
+        "score": 54.0,
+        "tier": "B",
+        "confidence": 0.8,
+        "risk_reward": 2.0,
+        "reasons": [
+          "板块主升一期，具备操作空间",
+          "分歧回踩，企稳信号",
+          "风险收益比 2.0，具备安全边际",
+          "高置信度信号",
+          "策略匹配度 80%"
+        ],
+        "data_source": "realtime"
+      }
+    ]
+  },
+  "events": [],
+  "validation": {
+    "prev_date": "20260525",
+    "has_prev_snapshot": false
+  },
+  "calibration": {
+    "score": 85.0,
+    "warnings": [],
+    "rebalance_suggestions": []
+  }
+}
