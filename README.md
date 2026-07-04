@@ -20,7 +20,7 @@
 
 - Frontend: React 19, Vite, TypeScript, ECharts, Tailwind CSS
 - Backend: FastAPI, Uvicorn, Akshare, Pandas, NumPy, DuckDB, PyArrow
-- Data: 实时/准实时行情接口、本地行业映射 JSON、磁盘缓存
+- Data: 行情接口、本地行业映射 JSON、磁盘缓存
 
 ## 本地运行
 
@@ -87,3 +87,7 @@ npm run preview
 npm run build
 python -m py_compile backend/alpha_engine.py backend/main.py backend/alpha/scanner.py backend/market_cache.py backend/routes_alpha_os.py
 ```
+
+## About
+
+A 股智能投研系统：支持行情分析、板块生命周期建模与 Alpha 策略筛选
